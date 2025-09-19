@@ -17,7 +17,6 @@ const Contact = () => {
     email: "",
     message: "",
   });
-toast.success("Your message has been sent. We'll get back to you soon!");
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {

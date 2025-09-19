@@ -38,7 +38,7 @@ export default function RootLayout({
             position="top-right"
             richColors
             toastOptions={{
-              style: { fontSize: "1.5rem" },
+              duration: 5000,
             }}
           />
         </div>
