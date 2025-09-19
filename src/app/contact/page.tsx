@@ -5,13 +5,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 
+interface ContactFormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const Contact = () => {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<ContactFormData>({
     name: "",
     email: "",
     message: "",
   });
-
+toast.success("Your message has been sent. We'll get back to you soon!");
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -19,10 +25,25 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Your message has been sent. We'll get back to you soon!");
-    setFormData({ name: "", email: "", message: "" });
+
+    let data = new FormData(e.target as HTMLFormElement);
+    const response = await fetch("https://formspree.io/f/movegred", {
+      method: "POST",
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      setFormData({ name: "", email: "", message: "" });
+      toast.success("Your message has been sent. We'll get back to you soon!");
+    } else {
+      console.error(await response.json());
+      toast.error("There was an error sending your message. Please try again.");
+    }
   };
 
   return (

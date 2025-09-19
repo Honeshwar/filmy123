@@ -10,6 +10,25 @@ export function cn(...inputs: ClassValue[]) {
 export const AllMovies = {
   "Trending Now": [
     {
+      id: "delivery-man-2013",
+      title: "Delivery Man",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BM2MzYmMyZmQtYmEzOC00NGM1LThkZTEtNjMzYjM3OWEyNjQxXkEyXkFqcGc@._V1_FMjpg_UX1045_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMTAxMDY0MDE1MzFeQTJeQWpwZ15BbWU3MDk0NTg5Nzk@._V1_FMjpg_UX2048_.jpg",
+      year: "2013",
+      genres: "Comedy, Drama",
+      type: "Movie",
+      rating: "6.4",
+      duration: "1h 45m",
+      description:
+        "An affable underachiever finds out he's fathered 533 children through anonymous donations 20 years ago. Now, when 142 of them file a lawsuit to reveal his identity, he must decide whether to come forward.",
+      cast: ["Vince Vaughn", "Chris Pratt", "Cobie Smulders"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/C1bafHGcqLs?si=gWWwwlOFSfCJEdSP",
+    },
+    {
       id: "havoc-2025",
       title: "Havoc",
       image:
@@ -27,85 +46,536 @@ export const AllMovies = {
       quality: ["1080p", "720p", "480p"],
       trailerUrl:
         "https://www.youtube.com/embed/6txjTWLoSc8?si=TiM1MIV4RQaZRkYe",
-      downloadLinks: {
-        "1080p": [
-          "https://new17.gdtot.dad/file/5356363521",
-          "https://hubdrive.fit/file/2368761071",
-          "https://new1.filepress.icu/file/680b6b1c8d595a25feb6f3e6",
-          "http://uploadhub.wf/5oe8a1n3ksmt",
-          "https://1fichier.com/?abceuue987l6r946cxu9",
-          "https://1fichier.com/?g83sqnw4zcbz6jvqaisd",
-          "https://clicknupload.cfd/i9hmuoboje38",
-          "https://dl.uploadflix.com/wjkd6i8w9kbm",
-          "https://gofile.io/d/2pqWBK",
-          "https://megaup.net/23563948673b57f22befc33443286599/Havoc_(2025)www.10xflix.com_Hindi_ORG_Dual_Audio_1080p_HDRip.mkv",
-          "https://multiup.io/download/833b133cc6eaadccfd984425ef91971a/Havoc%20%282025%29www.10xflix.com%20Hindi%20ORG%20Dual%20Audio%201080p%20HDRip.mkv",
-          "https://send.now/d/1X0oJ",
-          "https://streamtape.to/v/8ROM6r3kmVFoVLV",
-          "https://updown.cam/xmb1wa2e7sqp",
-        ],
-        "720p": [
-          "https://new17.gdtot.dad/file/2713430615",
-          "https://hubdrive.fit/file/2157705731",
-          "https://new1.filepress.icu/file/680b6b1e8d595a25feb6f443",
-          "http://uploadhub.wf/xsju5ood1ndo",
-          "https://1fichier.com/?c3u3rm78untdpno7osiv",
-          "https://1fichier.com/?q62cp944pxirrc4cc12b",
-          "https://clicknupload.cfd/5gmq21f6y9c8",
-          "https://desiupload.co/yewdx33mt015",
-          "https://dl.uploadflix.com/zk814kwahq7a",
-          "https://dl6.indishare.info/dxpf4qkrw9yp",
-          "https://gofile.io/d/6b1v8h",
-          "https://megaup.net/dee2d0dcf89eee51b5dae813cf553e8a/Havoc_(2025)www.10xflix.com_Hindi_ORG_Dual_Audio_720p_HDRip.mkv",
-          "https://multiup.io/download/1890269f94bb05e767a88a531f149bf3/Havoc%20%282025%29www.10xflix.com%20Hindi%20ORG%20Dual%20Audio%20720p%20HDRip.mkv",
-          "https://streamtape.to/v/OdqMoZ79l7UzAL",
-          "https://updown.cam/7ibj9f487l3t",
-        ],
-        "480p": [
-          "https://new17.gdtot.dad/file/1101444919",
-          "https://hubdrive.fit/file/2157705731",
-          "https://new1.filepress.icu/file/680b6b1b8d595a25feb6f38a",
-          "http://uploadhub.wf/d3hwxmlrwwya",
-          "https://1fichier.com/?bq07p5khiqiycpxhpbw4",
-          "https://1fichier.com/?qi4ilc7c1oto5nhnjcy8",
-          "https://clicknupload.cfd/qsm8nsz1czb7",
-          "https://desiupload.co/7yuo2pe68lg1",
-          "https://dl.uploadflix.com/53n48qb5jzlw",
-          "https://dl6.indishare.info/1nx92z4sfbls",
-          "https://gofile.io/d/nwWt2w",
-          "https://megaup.net/1279d7bad781d3af6b8a8c51966f0746/Havoc_(2025)www.10xflix.com_Hindi_ORG_Dual_Audio_480p_HDRip.mkv",
-          "https://send.now/d/1X0oh",
-          "https://streamtape.to/v/qDJooOgArWSz2oa",
-          "https://updown.cam/copgns2tz7rp",
-        ],
-      },
-      watchLinks: {
-        "1080p": [
-          "https://send.now/d/1X0oJ",
-          "https://gofile.io/d/2pqWBK",
-          "https://streamtape.to/v/8ROM6r3kmVFoVLV",
-          "https://updown.cam/xmb1wa2e7sqp",
-        ],
-        "720p": [
-          "https://multiup.io/download/1890269f94bb05e767a88a531f149bf3/Havoc%20%282025%29www.10xflix.com%20Hindi%20ORG%20Dual%20Audio%20720p%20HDRip.mkv",
-          "https://gofile.io/d/6b1v8h",
-          "https://streamtape.to/v/OdqMoZ79l7UzAL",
-          "https://updown.cam/7ibj9f487l3t",
-        ],
-        "480p": [
-          "https://send.now/d/1X0oh",
-          "https://gofile.io/d/nwWt2w",
-          "https://streamtape.to/v/qDJooOgArWSz2oa",
-          "https://updown.cam/copgns2tz7rp",
-        ],
-      },
+    },
+    {
+      id: "do-you-wanna-partner-2025",
+      title: "Do You Wanna Partner",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZTc1MTk1MjEtNDdhZi00ZTcyLWE0NGYtZWYyM2I4NTc1MTkzXkEyXkFqcGc@._V1_FMjpg_UX1152_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMzNkMTQzMWMtYjVlNy00MjE3LWJjNTQtMzg4YmRjNzhiMjQ5XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025–",
+      genres: "Drama",
+      type: "TV Series",
+      rating: "8.0",
+      duration: "Season 1",
+      description:
+        "Two best friends embark on a daring journey as partners in an alcohol start-up. Their audacious adventure unfolds as they challenge norms, bend rules, and 'craft' their destiny within a male-dominated industry.",
+      cast: ["Tamannaah Bhatia", "Diana Penty", "Indraneil Sengupta"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/vD39Kb3eXuU?si=QJwK3EfKm0qFTMfT", // replace with official trailer link when available
+    },
+    {
+      id: "lost-ladies-2023",
+      title: "Lost Ladies",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZTkxMjg1MWEtZjI4Mi00MzBmLTlhZjMtY2EwNzhkZWMyNzc5XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZTUxZDQzOGUtMDk2Zi00NGQ5LWE5MWEtNmRiOWE1OWM5ZmJmXkEyXkFqcGc@._V1_FMjpg_UX1920_.jpg",
+      year: "2023",
+      genres: "Comedy, Drama, Family",
+      type: "Movie",
+      rating: "7.5",
+      duration: "2h 2m",
+      description:
+        "The misadventures of two young brides who get lost from the same train. Mistaken identities and chaotic escapades bring laughter and heartwarming moments.",
+      cast: ["Nitanshi Goel", "Pratibha Ranta", "Sparsh Shrivastava"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/hGM87LCJxRc?si=3TW5yUXANGgvt4n9",
+    },
+    {
+      id: "dragon-2025",
+      title: "Dragon",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZWI2MjIxMDMtOThmOC00ZGNhLWEwOTEtMTFmZjJlNmRjMzk5XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMjRhOTllYjYtMzY5Yy00MWUyLWFiY2EtMDgyNTdmZDA0ZTg2XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025",
+      genres: "Drama, Thriller",
+      type: "Movie",
+      rating: "7.8",
+      duration: "2h 37m",
+      description:
+        "After a devastating breakup, troubled student Ragavan abandons his studies and enters the dangerous world of financial fraud, pursuing wealth and power while becoming entangled in escalating deception.",
+      cast: ["Anupama Parameswaran", "Pradeep Ranganathan", "Kayadu Lohar"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/qIBZlbJ7NUE?si=qhP3BEzx1d9nfdtT",
     },
   ],
-  Family: [],
-  "New Releases": [],
-  "Popular TV Shows": [],
-  Action: [],
-  Comedy: [],
-  Drama: [],
-  "Si-Fi": [],
+  Family: [
+    {
+      id: "panchayat-2020",
+      title: "Panchayat",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BNjMwYWMxNjYtY2I2NC00OWE0LTg4MmQtMmI5ZGI2NzU4ODhiXkEyXkFqcGc@._V1_FMjpg_UY4000_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMjJjNjg1YjktNmQ0OC00NzQ5LWI1YzEtZGE5NDc5OTg1ZGNjXkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2020–",
+      genres: "Comedy, Drama, Family",
+      type: "TV Series",
+      rating: "8.9",
+      duration: "Season 4",
+      description:
+        "A comedy-drama that follows the journey of an engineering graduate, Abhishek, who becomes secretary of a Panchayat office in a remote Uttar Pradesh village after failing to find a better job.",
+      cast: ["Jitendra Kumar", "Raghubir Yadav", "Chandan Roy"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/AHMEtNAZTP4?si=wB2BYWXDm4-_g38c",
+    },
+    {
+      id: "lost-ladies-2023",
+      title: "Lost Ladies",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZTkxMjg1MWEtZjI4Mi00MzBmLTlhZjMtY2EwNzhkZWMyNzc5XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZTUxZDQzOGUtMDk2Zi00NGQ5LWE5MWEtNmRiOWE1OWM5ZmJmXkEyXkFqcGc@._V1_FMjpg_UX1920_.jpg",
+      year: "2023",
+      genres: "Comedy, Drama, Family",
+      type: "Movie",
+      rating: "7.5",
+      duration: "2h 2m",
+      description:
+        "The misadventures of two young brides who get lost from the same train. Mistaken identities and chaotic escapades bring laughter and heartwarming moments.",
+      cast: ["Nitanshi Goel", "Pratibha Ranta", "Sparsh Shrivastava"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/hGM87LCJxRc?si=3TW5yUXANGgvt4n9",
+    },
+    {
+      id: "home-2015",
+      title: "Home",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BMjExOTQ4MDMyMV5BMl5BanBnXkFtZTgwMTE3NDM2MzE@._V1_FMjpg_UY2048_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMzM1MDA1MjY5Ml5BMl5BanBnXkFtZTgwNDY5NTE5NDE@._V1_FMjpg_UX2048_.jpg",
+      year: "2015",
+      genres: "Animation, Adventure, Comedy, Family, Sci-Fi",
+      type: "Movie",
+      rating: "6.6",
+      duration: "1h 34m",
+      description:
+        "Oh, a lovable misfit alien, runs away from his planet and takes shelter on Earth, where he befriends Tip, an adventurous young girl on a quest to find her displaced mother.",
+      cast: ["Jim Parsons", "Rihanna", "Steve Martin"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl: "https://www.youtube.com/embed/MyqZf8LiWvM",
+    },
+  ],
+  "New Releases": [
+    {
+      id: "l2-empuraan-2025",
+      title: "L2: Empuraan",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BOWYwMmZkMjUtNzZjOS00NDNhLTk5MjAtZDNjZDZlOGFiNDVkXkEyXkFqcGc@._V1_FMjpg_UX954_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZGE4NTM5ZDktZWU3NC00ZGMxLTg3MGQtYzA2ZjBjYTZmNTgxXkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2025",
+      genres: "Action Epic, Action, Crime, Thriller",
+      type: "Movie",
+      rating: "6.4",
+      duration: "2h 59m",
+      description:
+        "The journey of Stephen Nedumpally, a man leading a double life as Khureshi Ab'raam, an enigmatic leader of a powerful global crime syndicate.",
+      cast: ["Mohanlal", "Prithviraj Sukumaran", "Rick Yune"],
+      quality: ["480p", "720p", "1080p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/wxLsVKWEHTs?si=U0nn6wSN8gxv0SJF",
+    },
+    {
+      id: "delivery-man-2013",
+      title: "Delivery Man",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BM2MzYmMyZmQtYmEzOC00NGM1LThkZTEtNjMzYjM3OWEyNjQxXkEyXkFqcGc@._V1_FMjpg_UX1045_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMTAxMDY0MDE1MzFeQTJeQWpwZ15BbWU3MDk0NTg5Nzk@._V1_FMjpg_UX2048_.jpg",
+      year: "2013",
+      genres: "Comedy, Drama",
+      type: "Movie",
+      rating: "6.4",
+      duration: "1h 45m",
+      description:
+        "An affable underachiever finds out he's fathered 533 children through anonymous donations 20 years ago. Now, when 142 of them file a lawsuit to reveal his identity, he must decide whether to come forward.",
+      cast: ["Vince Vaughn", "Chris Pratt", "Cobie Smulders"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/C1bafHGcqLs?si=gWWwwlOFSfCJEdSP",
+    },
+    {
+      id: "do-you-wanna-partner-2025",
+      title: "Do You Wanna Partner",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZTc1MTk1MjEtNDdhZi00ZTcyLWE0NGYtZWYyM2I4NTc1MTkzXkEyXkFqcGc@._V1_FMjpg_UX1152_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMzNkMTQzMWMtYjVlNy00MjE3LWJjNTQtMzg4YmRjNzhiMjQ5XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025–",
+      genres: "Drama",
+      type: "TV Series",
+      rating: "8.0",
+      duration: "Season 1",
+      description:
+        "Two best friends embark on a daring journey as partners in an alcohol start-up. Their audacious adventure unfolds as they challenge norms, bend rules, and 'craft' their destiny within a male-dominated industry.",
+      cast: ["Tamannaah Bhatia", "Diana Penty", "Indraneil Sengupta"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/vD39Kb3eXuU?si=QJwK3EfKm0qFTMfT", // replace with official trailer link when available
+    },
+  ],
+  "Popular TV Shows": [
+    {
+      id: "do-you-wanna-partner-2025",
+      title: "Do You Wanna Partner",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZTc1MTk1MjEtNDdhZi00ZTcyLWE0NGYtZWYyM2I4NTc1MTkzXkEyXkFqcGc@._V1_FMjpg_UX1152_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMzNkMTQzMWMtYjVlNy00MjE3LWJjNTQtMzg4YmRjNzhiMjQ5XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025–",
+      genres: "Drama",
+      type: "TV Series",
+      rating: "8.0",
+      duration: "Season 1",
+      description:
+        "Two best friends embark on a daring journey as partners in an alcohol start-up. Their audacious adventure unfolds as they challenge norms, bend rules, and 'craft' their destiny within a male-dominated industry.",
+      cast: ["Tamannaah Bhatia", "Diana Penty", "Indraneil Sengupta"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/vD39Kb3eXuU?si=QJwK3EfKm0qFTMfT", // replace with official trailer link when available
+    },
+    {
+      id: "su-from-so-2025",
+      title: "Su from So",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BYTM2ZDMzMDAtMjhlNS00YmVmLWJkYWEtMTczNTMwMjhiZjExXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZjE3MTc5MzQtODMwNy00MTY5LWJkMzQtZTc3ZTlhZjgxYzBmXkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      year: "2025",
+      genres: "Drama, Mystery",
+      type: "Movie",
+      rating: "9.0",
+      duration: "2h 17m",
+      description:
+        "In a quiet village, a boy's innocent crush unleashes strange events that have everyone convinced he's brought a ghost along with his feelings.",
+      cast: ["Raj B. Shetty", "Shanil Guru", "Prakash Thuminad"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/Fe11GLdTL5k?si=0T6u4Ez0jeNOXkGe",
+    },
+  ],
+  Action: [
+    {
+      id: "havoc-2025",
+      title: "Havoc",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BOWFiNWVlOWYtYjg1NS00ZjQ0LWI3N2QtZjdmM2I5OGI3NTBjXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BYjMwZjg3ZWEtMmJjZS00ZGY3LTlkYzQtN2RjNTdiNWZiYmE5XkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2025",
+      genres: "Action, Crime, Drama, Mystery, Thriller",
+      type: "Movie",
+      rating: "8.0",
+      duration: "1h 25m",
+      description:
+        "The story is set after a drug deal gone wrong, when a bruised detective must fight his way through a criminal underworld to rescue a politician’s estranged son, while unraveling a deep web of corruption and conspiracy that ensnares his entire city.",
+      cast: ["Tom Hardy", "Jessie Mei Li", "Justin Cornwell"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/6txjTWLoSc8?si=TiM1MIV4RQaZRkYe",
+    },
+    {
+      id: "l2-empuraan-2025",
+      title: "L2: Empuraan",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BOWYwMmZkMjUtNzZjOS00NDNhLTk5MjAtZDNjZDZlOGFiNDVkXkEyXkFqcGc@._V1_FMjpg_UX954_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZGE4NTM5ZDktZWU3NC00ZGMxLTg3MGQtYzA2ZjBjYTZmNTgxXkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2025",
+      genres: "Action Epic, Action, Crime, Thriller",
+      type: "Movie",
+      rating: "6.4",
+      duration: "2h 59m",
+      description:
+        "The journey of Stephen Nedumpally, a man leading a double life as Khureshi Ab'raam, an enigmatic leader of a powerful global crime syndicate.",
+      cast: ["Mohanlal", "Prithviraj Sukumaran", "Rick Yune"],
+      quality: ["480p", "720p", "1080p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/wxLsVKWEHTs?si=U0nn6wSN8gxv0SJF",
+    },
+    {
+      id: "jumanji-the-next-level-2019",
+      title: "Jumanji: The Next Level",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BMzU4ZWRhMzktZWJmMS00YTYwLWExZGUtMWRjMTk2MDA4M2RmXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BN2M0N2ZlODYtMjNmMS00ODgyLTgxZTctMzMwYTUyYzhlN2Y3XkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2019",
+      genres: "Action, Adventure, Comedy",
+      type: "Movie",
+      rating: "6.7",
+      duration: "2h 3m",
+      description:
+        "A team of friends return to Jumanji to rescue one of their own but discover that nothing is as they expect. They must brave deserts and snowy mountains to escape the world's most dangerous game.",
+      cast: [
+        "Dwayne Johnson",
+        "Jack Black",
+        "Kevin Hart",
+        "Karen Gillan",
+        "Danny Glover",
+      ],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl: "https://www.youtube.com/embed/rBxcF-r9Ibs",
+    },
+  ],
+  Comedy: [
+    {
+      id: "delivery-man-2013",
+      title: "Delivery Man",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BM2MzYmMyZmQtYmEzOC00NGM1LThkZTEtNjMzYjM3OWEyNjQxXkEyXkFqcGc@._V1_FMjpg_UX1045_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMTAxMDY0MDE1MzFeQTJeQWpwZ15BbWU3MDk0NTg5Nzk@._V1_FMjpg_UX2048_.jpg",
+      year: "2013",
+      genres: "Comedy, Drama",
+      type: "Movie",
+      rating: "6.4",
+      duration: "1h 45m",
+      description:
+        "An affable underachiever finds out he's fathered 533 children through anonymous donations 20 years ago. Now, when 142 of them file a lawsuit to reveal his identity, he must decide whether to come forward.",
+      cast: ["Vince Vaughn", "Chris Pratt", "Cobie Smulders"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/C1bafHGcqLs?si=gWWwwlOFSfCJEdSP",
+    },
+    {
+      id: "joker-folie-a-deux-2024",
+      title: "Joker: Folie à Deux",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BNTRlNmU1NzEtODNkNC00ZGM3LWFmNzQtMjBlMWRiYTcyMGRhXkEyXkFqcGc@._V1_FMjpg_UY4096_.jpg", // Sample poster URL, you can replace if you have another
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BYWRlZWVkODctNzc4My00OTVjLTkyZDEtMTJlYmFjNGUxNTYxXkEyXkFqcGc@._V1_FMjpg_UX1280_.jpg", // Sample banner, replace if needed
+      year: "2024",
+      genres: "Crime, Drama, Musical, Thriller",
+      type: "Movie",
+      rating: "5.6",
+      duration: "2h 18m",
+      description:
+        "Arthur Fleck is institutionalized at Arkham, awaiting trial for his crimes as Joker. While struggling with his dual identity, Arthur stumbles upon true love and discovers the music that’s always been inside him.",
+      cast: [
+        "Joaquin Phoenix",
+        "Lady Gaga",
+        "Brendan Gleeson",
+        "Catherine Keener",
+        "Zazie Beetz",
+      ],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/dYHPHLSGavM?si=erhm7n8U-SdNgOZh",
+    },
+    {
+      id: "su-from-so-2025",
+      title: "Su from So",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BYTM2ZDMzMDAtMjhlNS00YmVmLWJkYWEtMTczNTMwMjhiZjExXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZjE3MTc5MzQtODMwNy00MTY5LWJkMzQtZTc3ZTlhZjgxYzBmXkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      year: "2025",
+      genres: "Drama, Mystery",
+      type: "Movie",
+      rating: "9.0",
+      duration: "2h 17m",
+      description:
+        "In a quiet village, a boy's innocent crush unleashes strange events that have everyone convinced he's brought a ghost along with his feelings.",
+      cast: ["Raj B. Shetty", "Shanil Guru", "Prakash Thuminad"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/Fe11GLdTL5k?si=0T6u4Ez0jeNOXkGe",
+    },
+    {
+      id: "dragon-2025",
+      title: "Dragon",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZWI2MjIxMDMtOThmOC00ZGNhLWEwOTEtMTFmZjJlNmRjMzk5XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMjRhOTllYjYtMzY5Yy00MWUyLWFiY2EtMDgyNTdmZDA0ZTg2XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025",
+      genres: "Drama, Thriller",
+      type: "Movie",
+      rating: "7.8",
+      duration: "2h 37m",
+      description:
+        "After a devastating breakup, troubled student Ragavan abandons his studies and enters the dangerous world of financial fraud, pursuing wealth and power while becoming entangled in escalating deception.",
+      cast: ["Anupama Parameswaran", "Pradeep Ranganathan", "Kayadu Lohar"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/qIBZlbJ7NUE?si=qhP3BEzx1d9nfdtT",
+    },
+  ],
+  Drama: [
+    {
+      id: "dragon-2025",
+      title: "Dragon",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZWI2MjIxMDMtOThmOC00ZGNhLWEwOTEtMTFmZjJlNmRjMzk5XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMjRhOTllYjYtMzY5Yy00MWUyLWFiY2EtMDgyNTdmZDA0ZTg2XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025",
+      genres: "Drama, Thriller",
+      type: "Movie",
+      rating: "7.8",
+      duration: "2h 37m",
+      description:
+        "After a devastating breakup, troubled student Ragavan abandons his studies and enters the dangerous world of financial fraud, pursuing wealth and power while becoming entangled in escalating deception.",
+      cast: ["Anupama Parameswaran", "Pradeep Ranganathan", "Kayadu Lohar"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/qIBZlbJ7NUE?si=qhP3BEzx1d9nfdtT",
+    },
+    {
+      id: "joker-folie-a-deux-2024",
+      title: "Joker: Folie à Deux",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BNTRlNmU1NzEtODNkNC00ZGM3LWFmNzQtMjBlMWRiYTcyMGRhXkEyXkFqcGc@._V1_FMjpg_UY4096_.jpg", // Sample poster URL, you can replace if you have another
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BYWRlZWVkODctNzc4My00OTVjLTkyZDEtMTJlYmFjNGUxNTYxXkEyXkFqcGc@._V1_FMjpg_UX1280_.jpg", // Sample banner, replace if needed
+      year: "2024",
+      genres: "Crime, Drama, Musical, Thriller",
+      type: "Movie",
+      rating: "5.6",
+      duration: "2h 18m",
+      description:
+        "Arthur Fleck is institutionalized at Arkham, awaiting trial for his crimes as Joker. While struggling with his dual identity, Arthur stumbles upon true love and discovers the music that’s always been inside him.",
+      cast: [
+        "Joaquin Phoenix",
+        "Lady Gaga",
+        "Brendan Gleeson",
+        "Catherine Keener",
+        "Zazie Beetz",
+      ],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/dYHPHLSGavM?si=erhm7n8U-SdNgOZh",
+    },
+    {
+      id: "havoc-2025",
+      title: "Havoc",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BOWFiNWVlOWYtYjg1NS00ZjQ0LWI3N2QtZjdmM2I5OGI3NTBjXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BYjMwZjg3ZWEtMmJjZS00ZGY3LTlkYzQtN2RjNTdiNWZiYmE5XkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2025",
+      genres: "Action, Crime, Drama, Mystery, Thriller",
+      type: "Movie",
+      rating: "8.0",
+      duration: "1h 25m",
+      description:
+        "The story is set after a drug deal gone wrong, when a bruised detective must fight his way through a criminal underworld to rescue a politician’s estranged son, while unraveling a deep web of corruption and conspiracy that ensnares his entire city.",
+      cast: ["Tom Hardy", "Jessie Mei Li", "Justin Cornwell"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/6txjTWLoSc8?si=TiM1MIV4RQaZRkYe",
+    },
+
+    {
+      id: "su-from-so-2025",
+      title: "Su from So",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BYTM2ZDMzMDAtMjhlNS00YmVmLWJkYWEtMTczNTMwMjhiZjExXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZjE3MTc5MzQtODMwNy00MTY5LWJkMzQtZTc3ZTlhZjgxYzBmXkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      year: "2025",
+      genres: "Drama, Mystery",
+      type: "Movie",
+      rating: "9.0",
+      duration: "2h 17m",
+      description:
+        "In a quiet village, a boy's innocent crush unleashes strange events that have everyone convinced he's brought a ghost along with his feelings.",
+      cast: ["Raj B. Shetty", "Shanil Guru", "Prakash Thuminad"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/Fe11GLdTL5k?si=0T6u4Ez0jeNOXkGe",
+    },
+  ],
+  "Si-Fi": [
+    {
+      id: "delivery-man-2013",
+      title: "Delivery Man",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BM2MzYmMyZmQtYmEzOC00NGM1LThkZTEtNjMzYjM3OWEyNjQxXkEyXkFqcGc@._V1_FMjpg_UX1045_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMTAxMDY0MDE1MzFeQTJeQWpwZ15BbWU3MDk0NTg5Nzk@._V1_FMjpg_UX2048_.jpg",
+      year: "2013",
+      genres: "Comedy, Drama",
+      type: "Movie",
+      rating: "6.4",
+      duration: "1h 45m",
+      description:
+        "An affable underachiever finds out he's fathered 533 children through anonymous donations 20 years ago. Now, when 142 of them file a lawsuit to reveal his identity, he must decide whether to come forward.",
+      cast: ["Vince Vaughn", "Chris Pratt", "Cobie Smulders"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/C1bafHGcqLs?si=gWWwwlOFSfCJEdSP",
+    },
+    {
+      id: "l2-empuraan-2025",
+      title: "L2: Empuraan",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BOWYwMmZkMjUtNzZjOS00NDNhLTk5MjAtZDNjZDZlOGFiNDVkXkEyXkFqcGc@._V1_FMjpg_UX954_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BZGE4NTM5ZDktZWU3NC00ZGMxLTg3MGQtYzA2ZjBjYTZmNTgxXkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2025",
+      genres: "Action Epic, Action, Crime, Thriller",
+      type: "Movie",
+      rating: "6.4",
+      duration: "2h 59m",
+      description:
+        "The journey of Stephen Nedumpally, a man leading a double life as Khureshi Ab'raam, an enigmatic leader of a powerful global crime syndicate.",
+      cast: ["Mohanlal", "Prithviraj Sukumaran", "Rick Yune"],
+      quality: ["480p", "720p", "1080p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/wxLsVKWEHTs?si=U0nn6wSN8gxv0SJF",
+    },
+    {
+      id: "jumanji-the-next-level-2019",
+      title: "Jumanji: The Next Level",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BMzU4ZWRhMzktZWJmMS00YTYwLWExZGUtMWRjMTk2MDA4M2RmXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BN2M0N2ZlODYtMjNmMS00ODgyLTgxZTctMzMwYTUyYzhlN2Y3XkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
+      year: "2019",
+      genres: "Action, Adventure, Comedy",
+      type: "Movie",
+      rating: "6.7",
+      duration: "2h 3m",
+      description:
+        "A team of friends return to Jumanji to rescue one of their own but discover that nothing is as they expect. They must brave deserts and snowy mountains to escape the world's most dangerous game.",
+      cast: [
+        "Dwayne Johnson",
+        "Jack Black",
+        "Kevin Hart",
+        "Karen Gillan",
+        "Danny Glover",
+      ],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl: "https://www.youtube.com/embed/rBxcF-r9Ibs",
+    },
+    {
+      id: "dragon-2025",
+      title: "Dragon",
+      image:
+        "https://m.media-amazon.com/images/M/MV5BZWI2MjIxMDMtOThmOC00ZGNhLWEwOTEtMTFmZjJlNmRjMzk5XkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
+      imageBanner:
+        "https://m.media-amazon.com/images/M/MV5BMjRhOTllYjYtMzY5Yy00MWUyLWFiY2EtMDgyNTdmZDA0ZTg2XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
+      year: "2025",
+      genres: "Drama, Thriller",
+      type: "Movie",
+      rating: "7.8",
+      duration: "2h 37m",
+      description:
+        "After a devastating breakup, troubled student Ragavan abandons his studies and enters the dangerous world of financial fraud, pursuing wealth and power while becoming entangled in escalating deception.",
+      cast: ["Anupama Parameswaran", "Pradeep Ranganathan", "Kayadu Lohar"],
+      quality: ["1080p", "720p", "480p"],
+      trailerUrl:
+        "https://www.youtube.com/embed/qIBZlbJ7NUE?si=qhP3BEzx1d9nfdtT",
+    },
+  ],
 };

@@ -17,6 +17,7 @@ const Index = () => {
         <ContentRow title="Comedy" items={AllMovies["Comedy"]} />
         <ContentRow title="Drama" items={AllMovies["Drama"]} />
         <ContentRow title="Family" items={AllMovies["Family"]} />
+        <ContentRow title="Sci-Fi" items={AllMovies["Si-Fi"]} />
       </div>
     </main>
   );

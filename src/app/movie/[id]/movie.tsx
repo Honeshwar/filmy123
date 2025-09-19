@@ -44,10 +44,10 @@ interface MovieDetails {
   cast: string[];
   quality: string[];
   trailerUrl: string;
-  downloadLinks: {
+  downloadLinks?: {
     [quality: string]: string[];
   };
-  watchLinks: {
+  watchLinks?: {
     [quality: string]: string[];
   };
 }
@@ -186,13 +186,13 @@ const MovieDetail = () => {
               </div>
 
               <div className="flex flex-wrap gap-4 pt-4">
-                <Link href={"#watch-links"}>
+                <Link href={"#watch"}>
                   <Button className="cursor-pointer bg-tubiYellow text-tubiPurple hover:bg-tubiYellow/90">
                     <Play className="mr-2 h-4 w-4" />
                     Watch Now
                   </Button>
                 </Link>
-                <Link href={"#download-links"}>
+                <Link href={"#watch"}>
                   <Button
                     variant="outline"
                     className="cursor-pointer hover:text-white border-white/30 text-white hover:bg-white/10"
@@ -206,7 +206,7 @@ const MovieDetail = () => {
           </div>
 
           {/* Trailer */}
-          <div className="mt-12 space-y-6">
+          <div id="watch" className="mt-12 mb-12 space-y-6">
             <h2 className="text-3xl font-bold text-white text-center">
               Trailer
             </h2>
@@ -221,11 +221,11 @@ const MovieDetail = () => {
             </div>
           </div>
 
-          {/* Movies Links */}
+          {/* Movies Links 
           <MovieLinks
             moviesDownload={movie.downloadLinks}
             moviesWatch={movie.watchLinks}
-          />
+          />*/}
         </div>
       </div>
     </main>

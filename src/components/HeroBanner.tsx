@@ -21,7 +21,7 @@ const HeroBanner = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-tubiPurple via-tubiPurple/50 to-transparent" />
       </div>
 
-      <div className="relative container mx-auto px-4 h-full flex items-center">
+      <div className="relative container mx-auto px-4 md:px-8 h-full flex items-center">
         <div className="max-w-2xl space-y-6 animate-fade-in">
           <span className="inline-block bg-tubiYellow/90 text-tubiPurple text-sm font-medium px-2 py-1 rounded">
             {/* Featured */}
