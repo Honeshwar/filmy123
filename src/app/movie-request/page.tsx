@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { BanknoteXIcon } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 import { toast } from "sonner";
 interface MovieRequestData {
@@ -163,10 +164,12 @@ export default function MovieRequestPage() {
           </p>
           <p className="mt-5 flex flex-col justify-center items-center ">
             {/* Go and Browse others movies */}
-            <Button className="cursor-pointer flex bg-tubiYellow text-tubiPurple hover:bg-tubiYellow/90">
-              <BanknoteXIcon className="mr-0 h-4 w-4" />
-              Browse Movies
-            </Button>
+            <Link href={"/browse"}>
+              <Button className="cursor-pointer flex bg-tubiYellow text-tubiPurple hover:bg-tubiYellow/90">
+                <BanknoteXIcon className="mr-0 h-4 w-4" />
+                Browse Movies
+              </Button>
+            </Link>
           </p>
         </div>
       )}
