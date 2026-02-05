@@ -3,10 +3,7 @@
 **Filmy123** is a modern movie discovery web application built with **Next.js 15**, **TypeScript**, and **shadcn/ui**.  
 It allows users to explore movies, view detailed information, browse trends, and enjoy a fast, clean, and responsive UI powered by the latest React and Next.js features.
 
-
-
-
-## 🔗 Hosted Link
+🔗 **Live Website:**  
 https://filmy123.vercel.app/
 
 
