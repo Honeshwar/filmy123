@@ -8,9 +8,8 @@ It allows users to explore movies, view detailed information, browse trends, and
 
 ### 🔗 Hosted Link
 
-- Website Link: https://honeshwar-store.netlify.app/
-- Backend Service code: https://github.com/Honeshwar/ecommerce-strapi
-
+- Website Link: https://filmy123.vercel.app/
+- 
 ---
 
 ### 📸 Screenshot
@@ -66,3 +65,5 @@ It allows users to explore movies, view detailed information, browse trends, and
 ```bash
 git clone https://github.com/Honeshwar/filmy123.git
 cd filmy123
+npm install
+npm run dev
