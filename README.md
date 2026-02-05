@@ -4,15 +4,13 @@
 It allows users to explore movies, view detailed information, browse trends, and enjoy a fast, clean, and responsive UI powered by the latest React and Next.js features.
 
 
----
 
-### 🔗 Hosted Link
 
-- Website Link: https://filmy123.vercel.app/
-- 
----
+## 🔗 Hosted Link
+https://filmy123.vercel.app/
 
-### 📸 Screenshot
+
+## 📸 Screenshot
 
 <p align="center">
   <img src="./public/screenshots/1.png" alt="Portfolio Screenshot" width="800"/>
@@ -36,7 +34,7 @@ It allows users to explore movies, view detailed information, browse trends, and
   <img src="./public/screenshots/7.png" alt="Portfolio Screenshot" width="800"/>
 </p>
 
----
+
 
 ## 🚀 Features
 
@@ -48,9 +46,9 @@ It allows users to explore movies, view detailed information, browse trends, and
 - 📱 Fully responsive design
 - 🧠 Form handling with validation
 
----
 
-### 🛠 Tech Stack
+
+## 🛠 Tech Stack
 
 - **Next.js 15** (App Router)
 - **React 19**
@@ -58,9 +56,9 @@ It allows users to explore movies, view detailed information, browse trends, and
 - **Tailwind CSS**
 - **shadcn/ui + Radix UI**
 
----
 
-### 🚀 Getting Started (Local Setup)
+
+## 🚀 Getting Started (Local Setup)
 
 ```bash
 git clone https://github.com/Honeshwar/filmy123.git
