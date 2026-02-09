@@ -6,3 +6,6 @@ npx shadcn@latest add button
 
 This creates:
 src/components/ui/button.tsx 
+
+
+nextjs project use shadcn component library + tailwindcss + SSG 

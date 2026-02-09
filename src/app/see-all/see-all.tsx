@@ -15,6 +15,7 @@ import { useSearchParams } from "next/navigation";
 
 import { AllMovies } from "@/lib/utils";
 import Link from "next/link";
+import CustomCard from "@/components/CustomCard";
 
 const SeeAll = () => {
   // const ITEMS_PER_PAGE = window.innerWidth > 768 ? 12 : 6;
@@ -76,24 +77,7 @@ const SeeAll = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {items.map((item) => (
-            <Link
-              key={item.id}
-              href={`/movie/${item.id}`}
-              className="relative group overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-full aspect-[2/3] object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <p className="text-white font-medium truncate">
-                    {item.title}
-                  </p>
-                </div>
-              </div>
-            </Link>
+           <CustomCard key={item.id} item={item} />
           ))}
 
           {items.length === 0 && (
