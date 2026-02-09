@@ -54,7 +54,7 @@ export const AllMovies = {
         "https://m.media-amazon.com/images/M/MV5BZTc1MTk1MjEtNDdhZi00ZTcyLWE0NGYtZWYyM2I4NTc1MTkzXkEyXkFqcGc@._V1_FMjpg_UX1152_.jpg",
       imageBanner:
         "https://m.media-amazon.com/images/M/MV5BMzNkMTQzMWMtYjVlNy00MjE3LWJjNTQtMzg4YmRjNzhiMjQ5XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
-      year: "2025–",
+      year: "2025",
       genres: "Drama",
       type: "TV Series",
       rating: "8.0",
@@ -113,7 +113,7 @@ export const AllMovies = {
         "https://m.media-amazon.com/images/M/MV5BNjMwYWMxNjYtY2I2NC00OWE0LTg4MmQtMmI5ZGI2NzU4ODhiXkEyXkFqcGc@._V1_FMjpg_UY4000_.jpg",
       imageBanner:
         "https://m.media-amazon.com/images/M/MV5BMjJjNjg1YjktNmQ0OC00NzQ5LWI1YzEtZGE5NDc5OTg1ZGNjXkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg",
-      year: "2020–",
+      year: "2020",
       genres: "Comedy, Drama, Family",
       type: "TV Series",
       rating: "8.9",
@@ -209,7 +209,7 @@ export const AllMovies = {
         "https://m.media-amazon.com/images/M/MV5BZTc1MTk1MjEtNDdhZi00ZTcyLWE0NGYtZWYyM2I4NTc1MTkzXkEyXkFqcGc@._V1_FMjpg_UX1152_.jpg",
       imageBanner:
         "https://m.media-amazon.com/images/M/MV5BMzNkMTQzMWMtYjVlNy00MjE3LWJjNTQtMzg4YmRjNzhiMjQ5XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
-      year: "2025–",
+      year: "2025",
       genres: "Drama",
       type: "TV Series",
       rating: "8.0",
@@ -230,7 +230,7 @@ export const AllMovies = {
         "https://m.media-amazon.com/images/M/MV5BZTc1MTk1MjEtNDdhZi00ZTcyLWE0NGYtZWYyM2I4NTc1MTkzXkEyXkFqcGc@._V1_FMjpg_UX1152_.jpg",
       imageBanner:
         "https://m.media-amazon.com/images/M/MV5BMzNkMTQzMWMtYjVlNy00MjE3LWJjNTQtMzg4YmRjNzhiMjQ5XkEyXkFqcGc@._V1_FMjpg_UX2048_.jpg",
-      year: "2025–",
+      year: "2025",
       genres: "Drama",
       type: "TV Series",
       rating: "8.0",

@@ -14,6 +14,7 @@ import {
 import { useSearchParams } from "next/navigation";
 
 import { AllMovies } from "@/lib/utils";
+import Link from "next/link";
 
 const SeeAll = () => {
   // const ITEMS_PER_PAGE = window.innerWidth > 768 ? 12 : 6;
@@ -75,8 +76,9 @@ const SeeAll = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {items.map((item) => (
-            <div
+            <Link
               key={item.id}
+              href={`/movie/${item.id}`}
               className="relative group overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
             >
               <img
@@ -91,7 +93,7 @@ const SeeAll = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
 
           {items.length === 0 && (

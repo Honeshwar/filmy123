@@ -129,8 +129,9 @@ const Browse = () => {
           <>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {paginatedContent.map((item) => (
-                <div
+                <Link
                   key={item.id}
+                  href={`/movie/${item.id}`}
                   className="relative group overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105  cursor-pointer"
                 >
                   <img
@@ -148,13 +149,13 @@ const Browse = () => {
                           {item.type}
                         </span>
                         <span className="text-xs text-white/70">•</span>
-                        <span className="text-xs text-white/70">
+                        <span className="text-xs text-white/70 text-ellipsis overflow-hidden whitespace-nowrap">
                           {item.genres}
                         </span>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 

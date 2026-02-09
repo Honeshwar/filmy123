@@ -7,7 +7,7 @@ interface Movie {
   title: string;
   image: string;
   year?: string | number;
-  genre?: string;
+  genres?: string;
 }
 
 interface ContentRowProps {
@@ -50,23 +50,21 @@ const ContentRow = ({ title, items }: ContentRowProps) => {
                   <p className="text-white font-medium truncate">
                     {item.title}
                   </p>
-                  {(item.year || item.genre) && (
-                    <div className="flex items-center gap-2 mt-1">
-                      {item.year && (
-                        <span className="text-xs text-white/70">
-                          {item.year}
-                        </span>
-                      )}
-                      {item.year && item.genre && (
-                        <span className="text-xs text-white/70">•</span>
-                      )}
-                      {item.genre && (
-                        <span className="text-xs text-white/70">
-                          {item.genre}
-                        </span>
-                      )}
-                    </div>
-                  )}
+                  <div className="flex items-center gap-2 mt-1">
+                    {item.year && (
+                      <span className="text-xs text-white/70">
+                        {item.year}
+                      </span>
+                    )}
+                    {item.year && item.genres && (
+                      <span className="text-xs text-white/70">•</span>
+                    )}
+                    {item.genres && (
+                      <span className="text-xs text-white/70 text-ellipsis overflow-hidden whitespace-nowrap">
+                        {item.genres}
+                      </span>
+                    )}
+                  </div>
                 </div>
               </div>
             </Link>
