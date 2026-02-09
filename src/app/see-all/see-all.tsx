@@ -47,8 +47,7 @@ const SeeAll = () => {
   useEffect(() => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    // @ts-ignore
-    setItems(AllMovies[category]?.slice(startIndex, endIndex) || []);
+    setItems(AllMovies[category as keyof typeof AllMovies]?.slice(startIndex, endIndex) || []);
   }, [currentPage, category]);
 
   return (

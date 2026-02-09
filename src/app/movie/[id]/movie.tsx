@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Play, Download, Star, Clock, Calendar } from "lucide-react";
-import MovieLinks from "@/components/MovieLinks";
 import { AllMovies } from "@/lib/utils";
 import Link from "next/link";
 
@@ -18,19 +17,6 @@ const AllMovieTogether = [
   ...AllMovies["Family"],
 ];
 interface MovieDetails {
-  // id: number;
-  // title: string;
-  // image: string;
-  // year: string;
-  // duration: string;
-  // rating: string;
-  // genre: string;
-  // synopsis: string;
-  // cast: string[];
-  // trailerUrl: string;
-  // downloadLinks: { url: string }[];
-  // watchLinks: { url: string }[];
-
   id: string;
   title: string;
   image: string;
@@ -69,31 +55,6 @@ const MovieDetail = () => {
       }
     }
     setIsLoading(false);
-    // For now, we'll use mock data
-    // setTimeout(() => {
-    //   setMovie({
-    //     id: Number(id),
-    //     title: "The Dark Knight",
-    //     image:
-    //       "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=800&auto=format&fit=crop",
-    //     year: "2008",
-    //     duration: "2h 32m",
-    //     rating: "9.0",
-    //     genre: "Action, Crime, Drama",
-    //     synopsis:
-    //       "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    //     cast: [
-    //       "Christian Bale",
-    //       "Heath Ledger",
-    //       "Aaron Eckhart",
-    //       "Michael Caine",
-    //       "Gary Oldman",
-    //       "Morgan Freeman",
-    //     ],
-    //     trailerUrl: "https://www.youtube.com/embed/EXeTwQWrcwY",
-    //   });
-    //   setIsLoading(false);
-    // }, 1000);
   }, [id]);
 
   if (isLoading) {
